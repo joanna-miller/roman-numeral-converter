@@ -28,8 +28,24 @@ _{This is a detailed description of your application. Give as much detail as nee
 ## Specifications
 Describe: romanize()
 
-Test: "It returns I for an input of 1"
+Test: "It returns the 13 basic Roman Numeral combinations that directly correspond to a number"
 Expect(romanize(1).toEqual(I))
+      (romanize(4).toEqual(IV))
+      (romanize(5).toEqual(V))
+      (romanize(9).toEqual(IX))
+      (romanize(10).toEqual(X))
+      (romanize(40).toEqual(XL))
+      (romanize(50).toEqual(L))
+      (romanize(90).toEqual(XC))
+      (romanize(100).toEqual(C))
+      (romanize(400).toEqual(CD))
+      (romanize(500).toEqual(D))
+      (romanize(900).toEqual(CM))
+      (romanize(1000).toEqual(M))
+
+
+Test: "It returns the correct Roman Number for any number submitted"
+Expect(romanize(3999).toEqual(MMMCMXCIX))
 
 ## License
 

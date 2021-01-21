@@ -14,10 +14,14 @@ var romanMatrix = [
   [1, 'I']
 ];
 function romanize(number){
+  if (num === 0) {
+    return '';
+  }
 for (var i = 0; i < romanMatrix.length; i++) {
-    if (number === romanMatrix[i][0]) {
-      console.log(romanMatrix[i][1]);
-}
-}
-}
-romanize(1)
+  if (number >= romanMatrix[i][0]) {
+    return romanMatrix[i][1] + romanize(num - romanMatrix[i][0]);
+  }
+
+
+
+    
