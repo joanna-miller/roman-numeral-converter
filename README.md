@@ -20,11 +20,6 @@ _Enter any number from 1 - 3,999 and click the submit button! Our converter will
 * _Navigate to top level of the directory_
 * _Open index.html in your browser_
 
-## Known Bugs
-
-* _Any known issues_
-* _should go here_
-
 ## Specifications
 ```
 Describe: romanize()
