@@ -28,8 +28,16 @@ for (var i = 0; i < romanMatrix.length; i++) {
     $("form#converterForm").submit(function(event) {
       event.preventDefault();
       const numToConvert = parseInt($("#number").val());
+      console.log(numToConvert)
       let romanNum = romanize(numToConvert);
       $("#roman").text(romanNum);
       $("#results").show();
     });
-  });
+  });    
+
+    
+  
+    
+  
+    
+  
