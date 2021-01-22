@@ -1,0 +1,11 @@
+h1 {
+ padding: 3%;
+}
+
+#converterForm {
+  padding: 3%;
+}
+
+#results {
+  display: none;
+}

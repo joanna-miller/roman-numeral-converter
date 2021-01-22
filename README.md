@@ -1,8 +1,8 @@
-# _{Application Name}_
+# _Roman Numeral Converter_
 
-#### _{Brief description of application}_
+#### _Convert numbers to Roman Numerals_
 
-#### By _**Jo Miller**_
+#### By _**Olha Hizhytska, Maxwell Meyer, Jo Miller**_
 
 ## Technologies Used
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_Enter any number from 1 - 3,999 and click the submit button! Our converter will return the corresponding Roman numeral._
 
 ## Setup/Installation Requirements
 
@@ -26,9 +26,10 @@ _{This is a detailed description of your application. Give as much detail as nee
 * _should go here_
 
 ## Specifications
+```
 Describe: romanize()
 
-Test: "It returns the 13 basic Roman Numeral combinations that directly correspond to a number"
+Test: "It returns the 13 basic Roman numeral combinations that directly correspond to a number"
 Expect(romanize(1).toEqual(I))
       (romanize(4).toEqual(IV))
       (romanize(5).toEqual(V))
@@ -44,8 +45,9 @@ Expect(romanize(1).toEqual(I))
       (romanize(1000).toEqual(M))
 
 
-Test: "It returns the correct Roman Number for any number submitted"
+Test: "It returns the correct Roman numeral for any number submitted"
 Expect(romanize(3999).toEqual(MMMCMXCIX))
+```
 
 ## License
 
@@ -53,4 +55,6 @@ Expect(romanize(3999).toEqual(MMMCMXCIX))
 
 ## Contact Information
 
+_Olha Hizhytska: olgainfotech@gmail.com_ <br>
+_Maxwell Meyer: maxreadswell@gmail.com_ <br>
 _Jo Miller: joannamiller@gmail.com_

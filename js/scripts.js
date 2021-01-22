@@ -13,15 +13,23 @@ var romanMatrix = [
   [4, 'IV'],
   [1, 'I']
 ];
-function romanize(number){
+function romanize(num){
   if (num === 0) {
     return '';
   }
 for (var i = 0; i < romanMatrix.length; i++) {
-  if (number >= romanMatrix[i][0]) {
+  if (num >= romanMatrix[i][0]) {
     return romanMatrix[i][1] + romanize(num - romanMatrix[i][0]);
   }
+  }
+}
 
-
-
-    
+  $(document).ready(function() {
+    $("form#converterForm").submit(function(event) {
+      event.preventDefault();
+      const numToConvert = parseInt($("#number").val());
+      let romanNum = romanize(numToConvert);
+      $("#roman").text(romanNum);
+      $("#results").show();
+    });
+  });
